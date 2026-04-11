@@ -44,7 +44,8 @@ rustPlatform.buildRustPackage rec {
   meta = with lib; {
     description = "A Rust daemon for running Wallpaper Engine on Linux compositors";
     homepage = "https://github.com/Aromatic05/we-layerd";
-    license = licenses.mit; # Based on LICENSE file in workspace though I'm packaging external repo
+    license = licenses.free;
     platforms = platforms.linux;
+    mainProgram = "we-layerd";
   };
 }
