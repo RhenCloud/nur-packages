@@ -45,6 +45,5 @@ rustPlatform.buildRustPackage rec {
     description = "A command-line music player for NetEase Cloud Music";
     homepage = "https://github.com/professor-lee/CNMPlayer";
     license = licenses.mit;
-    maintainers = with maintainers; [ RhenCloud ];
   };
 }
